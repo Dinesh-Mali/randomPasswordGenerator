@@ -1,0 +1,45 @@
+body{
+    background-color: rgba(169,3,41,1);
+background: @include filter-gradient(#a90329, #6d0019, vertical);
+background: @include background-image(linear-gradient(top, rgba(169,3,41,1) 0%, rgba(143,2,34,1) 44%, rgba(109,0,25,1) 100%));
+}
+
+form{
+    width: 650px;
+    margin: 0 auto;
+    margin-top: 250px;
+    
+}
+.myBtn, .out, .pass{
+    color: antiquewhite;
+    font-size: 30px;
+}
+.myBtn{
+    padding: 15px;
+}
+
+.out{
+    margin-bottom: 10px;
+    width: 100%;
+    color: #f63;
+    padding: 15px;
+    text-align: center;
+}
+.pass{
+    width: 435px;
+    float: left;
+    margin-right: 10px;
+    padding: 20px;
+    background-color: #f63;
+    margin-top: 10px;
+    text-align: center;
+}
+.in{
+    padding: 10px;
+    font-size: 40px;
+    text-align: center;
+    color: #f63;
+    margin-top: 10px;
+    margin-left: 30px;
+    
+}
